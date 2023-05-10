@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom"
 const Home = () => {
   const techStack =[{src:'./img/html-5.png',alt:'Html'},{src:'./img/css-3.png',alt:'Css'},{src:'./img/js.png',alt:'Js'},{src:'./img/react.png',alt:'Reactjs'},{src:'./img/tailwindcss.png',alt:'Tailwindcss'},{src:'./img/bootstrap.png',alt:'Bootstrap'}]
   return (
-    <main className="md:px-[25%] px-4 md:pt-[10%] pt-4">
+    <main className="md:px-[25%] px-4 md:pt-[7%] pt-4 min-h-[90vh] align-middle ">
       <div className="flex items-center">
         <div className="">
-          <h1 className="md:text-3xl text-xl font-extrabold">Front-End Developer</h1>
+          <h1 className="md:text-3xl text-xl font-extrabold mb-4">Front-End Developer</h1>
           <p className="md:text-lg text-sm">
             I am Kipngetich Ruto. A passionate web developer based in Nairobi, Kenya.
           </p>
-          <div className="pt-2 ">
+          <div className="pt-4 ">
             <NavLink to={'https://github.com/R254'} className="text-2xl pr-2">
               <ion-icon name="logo-github"></ion-icon>
             </NavLink>

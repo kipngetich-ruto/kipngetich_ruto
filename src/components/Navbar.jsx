@@ -38,7 +38,7 @@ const Navbar = () => {
         <ul className="flex md:flex-row flex-col md:items-center md:gap-[1.5vw] gap-4">
           {navs.map((item) => (
             <li key={item.id} className="">
-              <NavLink to={item.path} onClick={() => setShowMenu(!showMenu)}>
+              <NavLink to={item.path}>
                 {item.name}
               </NavLink>
             </li>
