@@ -29,7 +29,9 @@ const Navbar = () => {
 
   return (
     <nav className="flex py-2 px-[7%] text-black items-center justify-between font-bold">
-      <div className="">
+      <div className=" flex">
+        {/* <img src="./img/profile.png" alt="" className="h-8 border rounded-full mr-2" />
+        <span className=" font-light">Kipngetich</span> */}
         <p className="">KR.dev</p>
       </div>
       <div className={ showMenu ? 
