@@ -1,15 +1,21 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Home, Navbar } from "./components"
+import { BrowserRouter } from "react-router-dom"
+import {Navbar, Home, Skills, About, Portfolio, Footer} from "./components"
+
 
 const App = () => (
-  <main className="">
-    <BrowserRouter>
+  <BrowserRouter>
       <Navbar/>
-      <Routes>
-        <Route index element = {<Home />} />
-      </Routes>
-    </BrowserRouter>
-  </main>
+      <main>
+        <Home/>
+        <hr />
+        <Skills/>
+        <About/>
+        <hr />
+        <Portfolio/>
+        <hr />
+        <Footer/>
+      </main>
+  </BrowserRouter>
 )
 
 export default App

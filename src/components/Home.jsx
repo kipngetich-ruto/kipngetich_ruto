@@ -1,39 +1,35 @@
-import { NavLink } from "react-router-dom"
-
 const Home = () => {
-  const techStack =[{src:'./img/html-5.png',alt:'Html'},{src:'./img/css-3.png',alt:'Css'},{src:'./img/js.png',alt:'Js'},{src:'./img/react.png',alt:'Reactjs'},{src:'./img/tailwindcss.png',alt:'Tailwindcss'},{src:'./img/bootstrap.png',alt:'Bootstrap'}]
   return (
-    <main className="md:px-[25%] px-4 md:pt-[7%] pt-4 min-h-[90vh] align-middle ">
-      <div className="flex items-center">
-        <div className="">
-          <h1 className="md:text-3xl text-xl font-extrabold mb-4">Front-End Developer</h1>
-          <p className="md:text-lg text-sm">
-            I am Kipngetich Ruto. A passionate web developer based in Nairobi, Kenya.
-          </p>
-          <div className="pt-4 ">
-            <NavLink to={'https://github.com/R254'} className="text-2xl pr-2">
-              <ion-icon name="logo-github"></ion-icon>
-            </NavLink>
-            <NavLink to={'https://www.linkedin.com/in/kipngetich-ruto-196733120/'} className="text-2xl pr-2">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </NavLink>
-          </div>
+    <div id="home" className="home">
+        <div className="box1">
+            <div>
+                <div className="user">
+                    icon
+                </div>
+                <h1 className="title">
+                    Hi, I am <span>Ruto</span>
+                </h1>
+                <p className="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat autem eaque 
+                    voluptatem laborum molestias facilis possimus voluptates vero nisi quae.
+                </p>
+            </div>
+            <div className="contact">
+                <div>
+                    <i>icon</i> <span>Frond-end developer</span>
+                </div>
+                <div>
+                    <i>icon</i> <span>ruto365@gmail.com</span>
+                </div>
+                <div>
+                    <i>icon</i> <span>Nairobi, Kenya</span>
+                </div>
+            </div>
         </div>
-        <div className="">
-          <img src="./img/profile.png" alt="Profile" className=" md:flex hidden rounded-full w-[400px] border "/>
+        <div className="box2">
+            <img src="/profile.jpg" alt="profile" />
         </div>
-      </div>
-      <div className="md:flex py-4 items-center gap-6">
-        <h2>Tech Stack </h2><span className="md:flex hidden"> | </span>
-        <ul className="md:flex gap-6">
-        {techStack.map((item,index) => (
-          <li key={index}>
-            <img src={item.src} alt={item.alt} className="h-7 w-7 rounded-3xl md:flex hidden"/><span className="md:hidden flex">{item.alt}</span>
-          </li>
-        ) )}
-        </ul>
-      </div>
-    </main>
+    </div>
   )
 }
 
