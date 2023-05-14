@@ -1,4 +1,5 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 import {nav_links} from './data'
 import { useEffect, useState } from "react"
 
@@ -26,17 +27,18 @@ const Navbar = () => {
     <nav className={sticky ? 'sticky': ''}>
         <div>
             <Link to='/' className="nav-b">
-                <img src="/profile.jpg" alt="Logo" className="nav-b-img" /> <span className="nav-b-txt">Ruto</span>
+                <img src="/img/profile.png" alt="Logo" className="nav-b-img" /> <span className="nav-b-txt">Ruto</span>
             </Link>
         </div>
         <ul className="navbar-nav">
             {nav_links.map((item)=>(
                 <li key={item.id}>
-                    <NavLink to={item.path} className='nav-item'>
+                    <HashLink to={item.path} className='nav-item' smooth>
                         {item.name}
-                    </NavLink>
+                    </HashLink>
                 </li>
             ))}
+            <li><a href="/Kipngetich_Ruto_Resume.pdf" className="btn" target="_blank" rel="noreferrer">Download Resume</a></li>
         </ul>
     </nav>
   )

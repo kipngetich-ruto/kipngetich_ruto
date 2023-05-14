@@ -9,16 +9,18 @@ const Portfolio = () => {
         {portfolio.map((item) => (
           <div className='box' key={item.id}>
             <div className='thumbnail'>
-              <a href={item.url} target='_blank'>
+              <a href={item.url} target='_blank' rel='noreferrer'>
                 <img src={item.src} alt="" />
               </a>
             </div>
             <div className='content'>
               <div className='sub-title'>
-                <a href={item.url} target='_blank'>{item.tech}</a>
+                <a href={item.url} target='_blank' rel='noreferrer'>
+                  {item.tech}
+                </a>
               </div>
               <h4 className='title'>
-                <a href={item.url} target='_blank'>
+                <a href={item.url} target='_blank' rel='noreferrer'>
                   {item.name}
                 </a>
               </h4>

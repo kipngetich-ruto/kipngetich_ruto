@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <div className="skills" id="skills">
         <h2>
-            Development skills
+            Developer skills
         </h2>
         <ul>
             {

@@ -7,11 +7,12 @@ const Home = () => {
                     <img src="/img/user.png" alt="" />
                 </div>
                 <h1 className="title">
-                    Hi, I am <span>Ruto</span>
+                    Hi, I &apos;m <span>Ruto</span>
                 </h1>
                 <p className="desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat autem eaque 
-                    voluptatem laborum molestias facilis possimus voluptates vero nisi quae.
+                    I am a passionate frond-end web developer with superb skills that enables me to convert beatiful web designs 
+                    into dynamic web applications. I am also sharpening my backend skills that might bring great collaboration 
+                    with backend engineers.
                 </p>
             </div>
             <div className="contact">
@@ -27,7 +28,7 @@ const Home = () => {
             </div>
         </div>
         <div className="box2">
-            <img src="/profile.jpg" alt="profile" />
+            <img src="/img/profile.png" alt="profile" />
         </div>
     </div>
   )

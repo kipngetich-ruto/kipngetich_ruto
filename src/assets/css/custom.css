@@ -18,6 +18,23 @@ nav{
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
 }
+nav>ul>li>.btn{
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    background: #eb1655;
+    opacity: 0.8;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+nav>ul>li>.btn:hover{
+    border: 1px solid #eb1655;
+    background: #ecf0f3;
+    color: #ff014f;
+    cursor: pointer;
+}
 .navbar-nav{
     display: flex;
     list-style: none;
@@ -51,6 +68,7 @@ nav{
 .nav-item:hover{
     color: rgba(3, 3, 3, 1);
 }
+
 .sticky{
     position: fixed;
     top: 0;
@@ -65,7 +83,7 @@ main{
 .home,.about{
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 4rem;
 }
 .home .user{
@@ -105,7 +123,7 @@ main{
     font-size: 52px;
     margin: 11px 0px;
 }
-.home h1 span,.home .user, .home i,.about .salute{
+.home h1 span,.home .user, .home i{
     color: #ff014f;
 }
 .home .desc,.about .desc{
@@ -168,7 +186,17 @@ h2{
 
 .about img{
     height: 20rem;
+    width: 23rem;
     border-radius: 2%;
+}
+.about .box3{
+    height: fit-content;
+    width: fit-content;
+}
+.about .salute{
+    color: #ff014f;
+    font-size: 20px;
+    font-weight: bold;
 }
 .about .about-main{
     padding-left: 50px;
@@ -177,6 +205,7 @@ h2{
 .about .about-main .desc{
     display: flex;
     flex-flow: row wrap;
+    word-wrap: break-word;
 }
 .about .social{
     display: flex;
@@ -241,7 +270,7 @@ h2{
 .portfolio .box .content .sub-title a{
     color: #ff014f;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
 }
 .portfolio .box .content h4{
