@@ -81,7 +81,7 @@ export const nav_skills = [
             src:'/img/higherwriters.png',
             name:'Higherwiters',
             tech: 'php | js | jquery | Bootstrap | mysql',
-            url:'http://renwinltd.com'
+            url:'https://higherwriters.000webhostapp.com/'
         },
         {
             id:2,
