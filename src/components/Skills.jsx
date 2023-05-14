@@ -1,42 +1,5 @@
+import {nav_skills} from './data'
 const Skills = () => {
-    const nav_skills = [
-        {
-            src:'/img/html',
-            alt: 'HTML'
-        },
-        {
-            src:'/img/html',
-            alt: 'CSS'
-        },
-        {
-            src:'/img/html',
-            alt: 'JS'
-        },
-        {
-            src:'/img/html',
-            alt: 'Bootstrap'
-        },
-        {
-            src:'/img/html',
-            alt: 'REACTJS'
-        },
-        {
-            src:'/img/html',
-            alt: 'TAILWIND'
-        },
-        {
-            src:'/img/html',
-            alt: 'PHP'
-        },
-        {
-            src:'/img/html',
-            alt: 'MYSQL'
-        },
-        {
-            src:'/img/html',
-            alt: 'MONGODB'
-        }
-    ]
   return (
     <div className="skills" id="skills">
         <h2>

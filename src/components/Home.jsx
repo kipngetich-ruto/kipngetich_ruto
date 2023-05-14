@@ -4,7 +4,7 @@ const Home = () => {
         <div className="box1">
             <div>
                 <div className="user">
-                    icon
+                    <img src="/img/user.png" alt="" />
                 </div>
                 <h1 className="title">
                     Hi, I am <span>Ruto</span>
@@ -15,14 +15,14 @@ const Home = () => {
                 </p>
             </div>
             <div className="contact">
-                <div>
-                    <i>icon</i> <span>Frond-end developer</span>
+                <div className="icon-list">
+                    <span className="user-icon"><ion-icon name="document-outline"></ion-icon></span> <span>Frond-end developer</span>
                 </div>
-                <div>
-                    <i>icon</i> <span>ruto365@gmail.com</span>
+                <div className="icon-list">
+                    <span className="user-icon"><ion-icon name="mail-outline"></ion-icon></span> <span>ruto365@gmail.com</span>
                 </div>
-                <div>
-                    <i>icon</i> <span>Nairobi, Kenya</span>
+                <div className="icon-list">
+                    <span className="user-icon"><ion-icon name="location-outline"></ion-icon></span> <span>Nairobi, Kenya</span>
                 </div>
             </div>
         </div>

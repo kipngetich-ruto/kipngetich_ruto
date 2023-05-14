@@ -21,13 +21,13 @@ const About = () => {
             </div>
             <div className="social">
                 <a href="">
-                    linkedin
+                    <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
                 <a href="">
-                    github
+                    <ion-icon name="logo-github"></ion-icon>
                 </a>
                 <a href="">
-                    Twitter
+                    <ion-icon name="logo-twitter"></ion-icon>
                 </a>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom"
-import nav_links from './data'
+import {nav_links} from './data'
 import { useEffect, useState } from "react"
 
 const Navbar = () => {

@@ -1,18 +1,19 @@
 *{
     box-sizing: border-box;
-    transition: all 0.3s ease-out;
+    
 }
 body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     background-color: #ecf0f3;
     padding-top: 10px;
+    color: rgba(3, 3, 3, 0.6);
 }
 nav{
     display: flex;
     justify-content: space-between;
     background-color: #ecf0f3;
-    padding: 20px 30px;
+    padding: 5px 30px;
     align-items: center;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
@@ -31,12 +32,14 @@ nav{
     height: 60px;
     border-radius: 50%;
     border: 2px solid rgba(3, 3, 3, 0.4);
+    margin: 0;
 }
 .nav-b-txt{
     font-weight: bold;
     font-size: small;
-    color: rgba(3, 3, 3, 1);
+    color: rgba(3, 3, 3, 0.6);
     padding-left: 0.3rem;
+    font-weight: bold;
 }
 .nav-item{
     padding: 0px 12px;
@@ -59,11 +62,25 @@ main{
     padding: 50px 110px 20px 110px;
 }
 /* ----------------------------------------------Home Section------------------------------------------------------ */
-.home,.about,.portfolio{
+.home,.about{
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
     padding-bottom: 4rem;
+}
+.home .user{
+    background: #ff014f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid #e989a6;
+}
+.home .user img{
+    height: 40%;
+    width: 40%;
 }
 .home .box2,.home .box1,.about .box3{
     box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
@@ -80,9 +97,6 @@ main{
 .home .box2{
     max-width: 50%;
 }
-/* .home .box1:hover,.home .box2:hover{
-    transition: all 0.3 ease-in-out;
-} */
 .home img{
     border-radius: 2%;
     height: 30rem;
@@ -100,7 +114,17 @@ main{
 }
 .home .contact{
     font-size: 20px;
-    line-height: 28px;
+    line-height: 35px;
+
+}
+.home .contact .icon-list{
+    display: flex;
+
+}
+.user-icon{
+    color: #ff014f;
+    font-size: 25px;
+    margin-right: 8px;
 }
 hr{
     border-top: 1px solid #d1d9e6;
@@ -116,7 +140,7 @@ hr{
     padding-top: 80px;
     padding-bottom: 50px;
 }
-.skills h2{
+h2{
     font-size: 40px;
     text-transform: capitalize;
 }
@@ -135,6 +159,10 @@ hr{
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
     border-radius: 6px;
+}
+.skills img{
+    height: 40%;
+    width: 40%;
 }
 /* ---------------------------------------About----------------------------------------- */
 
@@ -155,6 +183,7 @@ hr{
 }
 .about .social a{
     text-decoration: none;
+    font-size: 22px;
     color: #1ba1f2;
     margin: 5px 15px 15px;
     width: 53px;
@@ -172,7 +201,60 @@ hr{
 }
 /* ---------------------------------POrtfolio------------------------------------------------- */
 .portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portfolio h2{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.box-wrap{
+    display: flex;
     flex-flow: row wrap;
+}
+.portfolio .box-wrap .box{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    padding: 20px;
+    margin: 5px 10px 10px;
+    border-radius: 4%;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.portfolio .box .thumbnail{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.portfolio img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4%;
+}
+.portfolio .box .content a{
+    text-decoration: none;
+}
+.portfolio .box .content .sub-title a{
+    color: #ff014f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.portfolio .box .content h4{
+    margin-bottom: 0px;
+    margin-top: 16px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.portfolio .box .content .title a{
+    color: rgba(3, 3, 3, 0.6);
+}
+.portfolio .box .content .title a:hover{
+    color: #ff014f;
 }
 
 /* ----------------------------------Footer------------------------------------------------------- */
