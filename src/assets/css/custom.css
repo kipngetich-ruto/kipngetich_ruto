@@ -1,12 +1,11 @@
 *{
     box-sizing: border-box;
-    
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 body{
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
     background-color: #ecf0f3;
-    padding-top: 10px;
     color: rgba(3, 3, 3, 0.6);
 }
 nav{
@@ -105,7 +104,6 @@ main{
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     padding: 30px;
     border-radius: 2%;
-
 }
 .home .box1{
     max-width: 50%;
@@ -228,7 +226,7 @@ h2{
     color: #ffffff;
     background: #ff014f;
 }
-/* ---------------------------------POrtfolio------------------------------------------------- */
+/* ---------------------------------Portfolio------------------------------------------------- */
 .portfolio{
     padding-top: 50px;
     padding-bottom: 50px;
