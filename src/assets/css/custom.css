@@ -75,6 +75,12 @@ nav>ul>li>.btn:hover{
     width: 100%;
     box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
 }
+.toggle-icon{
+    font-size: 30px;
+    color: #ff014f;
+    transition: 0.6 ease-in-out;
+    display: none;
+}
 main{
     padding: 50px 110px 20px 110px;
 }
