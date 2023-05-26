@@ -1,4 +1,4 @@
-@media (max-width: 767px){
+@media only screen and (max-width: 767px){
     main{
         padding: 10px 20px 10px 20px;
     }
@@ -14,21 +14,19 @@
     }
     .home .box2,.home .box1,.about .box3{
         background:#ecf0f3;
+        padding: 10px;
     }
     .home{
         display: grid;
     }
     .home .box1{
         max-width: 100%;
+        margin-right: 0;
     }
     .home .box2{
         grid-row: 1/2;
         max-width: 100%;
         margin-bottom: 20px;
-    }
-    .home img{
-        width: 100%;
-        height: auto;
     }
     .home h1{
         font-size: 28px;
@@ -105,13 +103,15 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
-    .about img{
-        height: auto;
-        width: 100%;
+    .about .box3{
+        display: none;
     }
     .about .salute{
         font-size: 16px;
         margin: 5px 0px;
+    }
+    .about .title{
+        text-align: center;
     }
     .about .about-main{
         padding-left: 15px;
@@ -137,8 +137,10 @@
     }
     .portfolio .box-wrap .box{
         padding: 10px;
-        border-radius: 4%;
-        
+        border-radius: 10px;
+    }
+    .portfolio img{
+        border-radius: 0px 0px 10px 10px;
     }
     .portfolio .box .thumbnail{
         width: 100%;
@@ -152,26 +154,106 @@
         margin-top: 10px;
         font-size: 18px;
     }
-    .portfolio .box .content .title a{
-        color: rgba(3, 3, 3, 0.6);
-    }
-    .portfolio .box .content .title a:hover{
-        color: #ff014f;
-    }
     /* ----------------------------------Footer------------------------------------------------------- */
     .footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         padding-top: 0.8rem;
         padding-bottom: 0.5rem;
     }
     .footer-txt{
         margin-top: 5px;
         font-size: 10px;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: rgba(3, 3, 3, 0.7);
     } 
+}
+/* Styling for ipads */
+
+@media (min-width: 768px ) and (max-width:991px){
+    main{
+        padding: 10px 20px 10px 20px;
+    }
+    h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    /* -----------------------------Home------------------------------------------------ */
+    .home .box1{
+        margin-right: 15px;
+    }
+    .home .desc,.about .desc{
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .home .box2,.home .box1,.about .box3{
+        background:#ecf0f3;
+        padding: 15px;
+    }
+    .home h1{
+        font-size: 36px;
+    }
+    /* ----------------------------Skills----------------------- */
+    .skills{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+    }
+    .skills ul{
+        justify-content: center;
+    }
+
+    /* ---------------------------------------About----------------------------------------- */
+    .about{
+        display: flex;
+        flex-flow: row wrap;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .about .box3{
+        display: none;
+    }
+    .about .salute{
+        font-size: 16px;
+        margin: 5px 0px;
+    }
+    .about .title{
+        text-align: center;
+    }
+    .about .social{
+        justify-content: center;
+    }
+    .about .about-main{
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ------------------------------------Portfolio--------------------------- */
+    
+    .portfolio .box-wrap .box{
+        border-radius: 20px;
+        width: 320px;
+    }
+    .portfolio .box .thumbnail{
+        width: 100%;
+        height: auto;
+    }
+    .portfolio img{
+        border-radius: 0px 0px 20px 20px;
+    }
+    .portfolio .box .content .sub-title a{
+        font-size: 10px;
+    }
+    .portfolio .box .content h4{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    /* ----------------------------------Footer------------------------------------------------------- */
+    .footer{
+        padding-top: 0.8rem;
+        padding-bottom: 0.5rem;
+    }
+    .footer-txt{
+        margin-top: 5px;
+        font-size: 13px;
+    }  
 }

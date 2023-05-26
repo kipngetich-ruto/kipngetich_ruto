@@ -6,7 +6,7 @@ const About = () => {
         </div>
         <div className="about-main">
             <div className="salute">
-                <span>Get to Know me</span>
+                {/* <span>Get to Know me</span> */}
             </div>
             <div className="">
                 <h2 className="title">About Me </h2>

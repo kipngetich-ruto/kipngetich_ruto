@@ -113,6 +113,7 @@ main{
 }
 .home .box1{
     max-width: 50%;
+    margin-right: 20px;
     height: fit-content;
     width: fit-content;
 }
@@ -120,8 +121,9 @@ main{
     max-width: 50%;
 }
 .home img{
+    width: 100%;
+    height: auto;
     border-radius: 2%;
-    height: 30rem;
 }
 .home h1{
     font-size: 52px;
@@ -240,9 +242,10 @@ h2{
 .portfolio h2{
     text-align: center;
     margin-bottom: 50px;
-    
 }
 .box-wrap{
+    box-sizing: border-box;
+    justify-content: center;
     display: flex;
     flex-flow: row wrap;
 }
