@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="about" id="about">
         <div className="box3">
-            <img src="/our_profile.png" alt="profile" />
+            <img src="/profile2.png" alt="profile" />
         </div>
         <div className="about-main">
             <div className="salute">

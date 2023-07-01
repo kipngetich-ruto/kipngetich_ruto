@@ -103,5 +103,6 @@ export const nav_skills = [
             name:'R254 Developers',
             tech: 'Html | Css | Js | Bootstrap | jquery',
             url:'https://r254.github.io/r254'
-        }
+        },
+        
     ]
