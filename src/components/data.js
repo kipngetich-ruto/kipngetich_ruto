@@ -77,11 +77,18 @@ export const nav_skills = [
     ]
     export const portfolio = [
         {
+            id:4,
+            src:'/img/sms.png',
+            name:'Shop Management System',
+            tech: 'RactJs | NodeJs | Js | MYSQL ',
+            url:'http://localhost:5173'
+        },
+        {
             id:1,
             src:'/img/higherwriters.png',
             name:'Higherwiters',
             tech: 'php | js | jquery | Bootstrap | mysql',
-            url:'https://higherwriters.000webhostapp.com/'
+            url:'http://localhost/higherwriters/'
         },
         {
             id:2,
@@ -96,13 +103,6 @@ export const nav_skills = [
             name:'Traveltours',
             tech: 'Html | css | js | materialize ',
             url:'https://r254.github.io/traveltours'
-        },
-        {
-            id:4,
-            src:'/img/r254.png',
-            name:'R254 Developers',
-            tech: 'Html | Css | Js | Bootstrap | jquery',
-            url:'https://r254.github.io/r254'
         },
         
     ]

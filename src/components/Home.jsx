@@ -10,14 +10,14 @@ const Home = () => {
                     Hi, I &apos;m <span>Ruto</span>
                 </h1>
                 <p className="desc">
-                    I am a passionate frond-end web developer with superb skills that enables me to convert beatiful web designs 
-                    into dynamic web applications. I am also sharpening my backend skills that might bring great collaboration 
-                    with backend engineers.
+                    I am a passionate web developer with superb skills that enables me to convert beatiful web designs 
+                    into dynamic web applications. I have both front-end and backend skills that will easily integrate me
+                    into full-stack web development.
                 </p>
             </div>
             <div className="contact">
                 <div className="icon-list">
-                    <span className="user-icon"><ion-icon name="document-outline"></ion-icon></span> <span>Frond-end developer</span>
+                    <span className="user-icon"><ion-icon name="document-outline"></ion-icon></span> <span>Full-Stack Web developer</span>
                 </div>
                 <div className="icon-list">
                     <span className="user-icon"><ion-icon name="mail-outline"></ion-icon></span> <span>ruto365@gmail.com</span>
