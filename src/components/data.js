@@ -80,7 +80,7 @@ export const nav_skills = [
             id:4,
             src:'/img/sms.png',
             name:'Shop Management System',
-            tech: 'RactJs | NodeJs | Js | MYSQL ',
+            tech: 'Js | CSS | RactJs | NodeJs | MYSQL',
             url:'http://localhost:5173'
         },
         {
