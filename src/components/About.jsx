@@ -26,7 +26,7 @@ const About = () => {
                 <a href="https://www.linkedin.com/in/kipngetich-ruto-196733120/" target="_blank" rel="noreferrer">
                     <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
-                <a href="https://github.com/R254" target="_blank" rel="noreferrer">
+                <a href="https://github.com/kipngetich-ruto" target="_blank" rel="noreferrer">
                     <ion-icon name="logo-github"></ion-icon>
                 </a>
                 <a href="https://twitter.com/ruto365" target="_blank" rel="noreferrer">
